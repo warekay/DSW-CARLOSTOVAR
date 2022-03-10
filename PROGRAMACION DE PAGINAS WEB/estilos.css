@@ -1,0 +1,18 @@
+h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+div{
+    background: gray;
+    color: black;
+}
+
+table,tr,td,footer{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+body{
+    text-align: center;
+}
