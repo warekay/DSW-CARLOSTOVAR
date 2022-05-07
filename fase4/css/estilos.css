@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    background-color: #43919B;
+    padding: 20px;
+    color: antiquewhite;
+    flex-direction: row;
+    justify-content: space-around;
+    
+       }
+    
+    
+section{
+    
+    display: grid; 
+     grid-template-columns: 1fr 1fr 1fr ;
+       }
+    
+article{
+        background-color: #30AADD;
+        grid-column:1/4 ;
+        }
+    
+aside{
+        
+        background-color: beige;
+        
+        grid-column:4/5 ; 
+        
+    }
+footer {
+    background-color: black;
+    color: beige;
+    padding: 10px;
+    text-align: center;
+    
+    }
+@media screen and (max-width:768px) {
+  header { flex-direction: column;}  
+}
+    

@@ -32,5 +32,12 @@ footer {
     text-align: center;
     
     }
-
+@media screen and (max width:600px) {
+header
     
+}    
+
+img{
+    max-width: 100%;
+    width: 675px;
+}    
